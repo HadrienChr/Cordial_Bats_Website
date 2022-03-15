@@ -1,14 +1,25 @@
 /* Fonts */
 @import url('https://fonts.googleapis.com/css2?family=Adamina&family=Roboto:ital,wght@0,400;0,700;1,400&display=swap');
 
-
-
-
-
-
+/* Colors */
+:root{
+	--white: #FCFCFC;
+	--light-blue: #DBE4F3;
+	--blue: #8591AD;
+	--yellow: #FDB93C;
+	--beige: #F0CDB7;
+	--light-pink: #ECC1C1;
+	--pink: #FFAFAE;
+	--orange: #E87D57;
+	--red: #B34C45;
+	--green: #3D9165;
+	--black: #000000;
+}
 
 body {
 	font-family: 'Roboto', sans-serif;
+	color: var(--white);
+	background-color: var(--light-blue);
 }
 
 h1 {
