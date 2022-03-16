@@ -19,12 +19,30 @@
 
 body {
 	font-family: 'Roboto', sans-serif;
-	color: var(--white);
+	color: rbg(var(--white));
 	background-color: var(--blue);
 }
 
 h1 {
 	font-family: 'Adamina', serif;
+	color: rgb(var(--white));
+}
+
+.navbar {
+	padding-top: 32px;
+	padding-bottom: 32px;
+}
+
+.navbar-light .navbar-nav .nav-link {
+	color: rgba(var(--white), 0.5);
+}
+
+.navbar-light .navbar-nav .nav-link.active {
+	color: rgba(var(--white), 1);
+}
+
+.navbar-light .navbar-nav .nav-link {
+	padding: 16px;
 }
 
 .hero {
@@ -34,4 +52,15 @@ h1 {
 	background-position: center;
 	background-size: cover;
 	min-height: 100vh;
+}
+
+.hero-main {
+	background-image:
+	linear-gradient(to top left, 
+		rgba(var(--orange), 0.2), 
+		rgba(var(--pink), 0.4), 
+		rgba(var(--yellow), 0.2));
+	background-color: rgb(var(--pink));
+	border-radius: 8px;
+	padding: 80px;
 }
