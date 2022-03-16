@@ -30,7 +30,7 @@ h1 {
 .hero {
 	background-image:
 	linear-gradient(to bottom left, rgba(var(--blue), 0.6), rgba(var(--pink), 0.6)),
-	url("../images/220316_screenshot_pocket_parisians_1.png");
+	url("../images/hero_background_image.png");
 	background-position: center;
 	background-size: cover;
 	min-height: 100vh;
