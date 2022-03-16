@@ -3,25 +3,35 @@
 
 /* Colors */
 :root{
-	--white: #FCFCFC;
-	--light-blue: #DBE4F3;
-	--blue: #8591AD;
-	--yellow: #FDB93C;
-	--beige: #F0CDB7;
-	--light-pink: #ECC1C1;
-	--pink: #FFAFAE;
-	--orange: #E87D57;
-	--red: #B34C45;
-	--green: #3D9165;
-	--black: #000000;
+	--white: 252, 252, 252;
+	--light-blue: 219, 228, 243;
+	--blue: 133, 145, 173;
+	--yellow: 253, 185, 60;
+	--beige: 240, 205, 183;
+	--light-pink: 236, 193, 193;
+	--pink: 255, 175, 174;
+	--orange: 232, 125, 87;
+	--red: 179, 76, 69;
+	--green: 61, 145, 101;
+	--dark-gray: 42, 45, 52;
+	--black: 0, 0, 0;
 }
 
 body {
 	font-family: 'Roboto', sans-serif;
 	color: var(--white);
-	background-color: var(--light-blue);
+	background-color: var(--blue);
 }
 
 h1 {
 	font-family: 'Adamina', serif;
+}
+
+.hero {
+	background-image:
+	linear-gradient(to bottom left, rgba(var(--blue), 0.6), rgba(var(--pink), 0.6)),
+	url("../images/220316_screenshot_pocket_parisians_1.png");
+	background-position: center;
+	background-size: cover;
+	min-height: 100vh;
 }
