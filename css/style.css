@@ -19,7 +19,7 @@
 
 body {
 	font-family: 'Roboto', sans-serif;
-	color: rbg(var(--white));
+	color: rgba(var(--white), 1);
 	background-color: var(--blue);
 }
 
@@ -29,7 +29,7 @@ h1 {
 }
 
 .navbar {
-	padding-top: 32px;
+	/*padding-top: 32px;*/
 	padding-bottom: 32px;
 }
 
@@ -62,5 +62,20 @@ h1 {
 		rgba(var(--yellow), 0.2));
 	background-color: rgb(var(--pink));
 	border-radius: 8px;
-	padding: 80px;
+	padding: 72px;
+}
+
+.hero-main .h1 {
+	margin-bottom: 16px;
+}
+
+.hero-cta {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;	
+}
+
+.hero-cta .p {
+	margin-bottom: 0px;
 }
