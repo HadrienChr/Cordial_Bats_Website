@@ -1,8 +1,8 @@
 /* Fonts */
 @import url('https://fonts.googleapis.com/css2?family=Adamina&family=Roboto:ital,wght@0,400;0,700;1,400&display=swap');
 
-/* Colors */
 :root{
+	/* Colors */
 	--white: 252, 252, 252;
 	--light-blue: 219, 228, 243;
 	--blue: 133, 145, 173;
@@ -15,12 +15,15 @@
 	--green: 61, 145, 101;
 	--dark-gray: 42, 45, 52;
 	--black: 0, 0, 0;
+
+	/* Other */
+	--border-radius: 12px;
 }
 
 body {
 	font-family: 'Roboto', sans-serif;
 	color: rgba(var(--white), 1);
-	background-color: var(--blue);
+	background-color: rgba(var(--black),1);
 }
 
 h1 {
@@ -29,7 +32,6 @@ h1 {
 }
 
 .navbar {
-	/*padding-top: 32px;*/
 	padding-bottom: 32px;
 }
 
@@ -45,6 +47,20 @@ h1 {
 	padding: 16px;
 }
 
+.navbar-light .navbar-toggler {
+	border-color: rgba(0, 0, 0, 0);
+}
+
+.navbar-light .navbar-toggler:focus {
+	box-shadow: none;
+}
+
+.navbar-light .navbar-toggler-icon {
+  background-image: url("../images/toggler.png");
+  width: 40px;
+  height: 40px;
+}
+
 .hero {
 	background-image:
 	linear-gradient(to bottom left, rgba(var(--blue), 0.6), rgba(var(--pink), 0.6)),
@@ -54,6 +70,14 @@ h1 {
 	min-height: 100vh;
 }
 
+.hero-content {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	align-content: center;
+	min-height: 80vh;
+}
+
 .hero-main {
 	background-image:
 	linear-gradient(to top left, 
@@ -61,8 +85,9 @@ h1 {
 		rgba(var(--pink), 0.4), 
 		rgba(var(--yellow), 0.2));
 	background-color: rgb(var(--pink));
-	border-radius: 8px;
+	border-radius: var(--border-radius);
 	padding: 72px;
+	margin-bottom: 16px;
 }
 
 .hero-cta {
@@ -71,8 +96,8 @@ h1 {
 		rgba(var(--light-blue), 0.3), 
 		rgba(var(--pink), 0.4));
 	background-color: rgb(var(--pink));
-	border-radius: 8px;
-	padding: 16px 40px 16px 40px;
+	border-radius: var(--border-radius);
+	padding: 16px 32px 16px 32px;
 	margin-top: 56px;
 	margin-left: auto;
 	margin-right: auto;
@@ -90,4 +115,24 @@ h1 {
 	justify-content: center;
 	align-content: center;
 	flex-wrap: wrap;
+}
+
+.hero-logo-garden img {
+	width: 100%;
+	height: auto;
+}
+
+.hero-video {
+	border-radius: var(--border-radius);
+	width: 100%;
+	margin-bottom: 16px;
+}
+
+footer {
+	background-color: rgba(var(--black),1);
+	padding: 32px;
+}
+
+.legal-line {
+	font-size: 12px;
 }
