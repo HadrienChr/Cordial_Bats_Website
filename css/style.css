@@ -109,6 +109,12 @@ h1 {
 	padding-bottom: 8px;
 }
 
+.hero-logo-garden a {
+	font-size: 40px;
+	color: rgb(var(--white));
+}
+
+
 footer {
 	background-color: rgba(var(--black),1);
 	padding: 32px;
