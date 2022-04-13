@@ -40,15 +40,17 @@ h1 {
 }
 
 .hero-gradient {
-    background: linear-gradient(225deg, rgba(var(--light-blue),0.5), rgba(var(--pink),0.6), rgba(var(--light-pink),0.5), rgba(var(--blue),0.6));
+	background-image:
+	linear-gradient(to bottom left, rgba(var(--blue), 0.6), rgba(var(--pink), 0.6));
+/*    background: linear-gradient(225deg, rgba(var(--light-blue),0.5), rgba(var(--pink),0.6), rgba(var(--light-pink),0.5), rgba(var(--blue),0.6));
     background-size: 800% 800%;
 
     -webkit-animation: GradientAnimation 40s ease infinite;
     -moz-animation: GradientAnimation 40s ease infinite;
-    animation: GradientAnimation 40s ease infinite;
+    animation: GradientAnimation 40s ease infinite;*/
 }
 
-@-webkit-keyframes GradientAnimation {
+/*@-webkit-keyframes GradientAnimation {
     0%{background-position:100% 0%}
     50%{background-position:0% 100%}
     100%{background-position:100% 0%}
@@ -62,7 +64,7 @@ h1 {
     0%{background-position:100% 0%}
     50%{background-position:0% 100%}
     100%{background-position:100% 0%}
-}
+}*/
 
 .hero-content {
 	min-height: 100vh;	
