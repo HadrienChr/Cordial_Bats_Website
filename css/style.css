@@ -46,7 +46,7 @@ a {
 }
 
 a:hover, a:active {
-	color: rgb(var(--light-blue));
+	color: rgb(var(--pink));
 }
 
 /* Hero */
@@ -103,6 +103,7 @@ a:hover, a:active {
 	font-size: 40px;
 }
 
+/* Footer */
 footer {
 	background-color: rgba(var(--black),1);
 }
