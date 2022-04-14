@@ -14,9 +14,9 @@
 	--red: 179, 76, 69;
 	--light-green: 130, 173, 77;
 	--green: 61, 145, 101;
-	--dark-gray: 42, 45, 52;
 	--black:42, 45, 52;
 	--grey: 220, 220, 220;
+	--dark-gray: 120, 120, 120;
 
 	/* Other */
 	--border-radius: 12px;
@@ -99,7 +99,7 @@ a:hover, a:active {
 }
 
 .hero-logo-garden a {
-	font-size: 48px;
+	font-size: 40px;
 }
 
 footer {
@@ -111,7 +111,7 @@ footer {
 }
 
 .footer-logo-garden a {	
-	font-size: 24px;
+	font-size: 32px;
 	padding: 0px 8px 0px 8px;
 }
 
@@ -125,4 +125,5 @@ footer {
 
 .footer-legal p {
 	font-size: 12px;
+	color: rgba(var(--dark-gray), 1);
 }
