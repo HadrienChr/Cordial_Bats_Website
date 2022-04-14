@@ -12,13 +12,16 @@
 	--pink: 255, 175, 174;
 	--orange: 232, 125, 87;
 	--red: 179, 76, 69;
+	--light-green: 130, 173, 77;
 	--green: 61, 145, 101;
 	--dark-gray: 42, 45, 52;
-	--black: 0, 0, 0;
+	--black:42, 45, 52;
+	--grey: 220, 220, 220;
 
 	/* Other */
 	--border-radius: 12px;
 	--space-between: 24px;
+	--padding: 24px;
 }
 
 body {
@@ -30,6 +33,20 @@ body {
 h1 {
 	font-family: 'Adamina', serif;
 	color: rgb(var(--white));
+}
+
+p {
+	font-size: 16px;
+}
+
+a {
+	color: rgb(var(--white));
+  	text-decoration: none;
+	transition: color .2s linear;
+}
+
+a:hover, a:active {
+	color: rgb(var(--light-blue));
 }
 
 /* Hero */
@@ -46,7 +63,7 @@ h1 {
 
 .hero-content {
 	min-height: 100vh;	
-	padding: 24px;
+	padding: var(--padding);
 
 	display: flex;
 	align-items: center;
@@ -70,8 +87,7 @@ h1 {
 .hero-cta {
 	margin-top: 56px;
 	margin-left: auto;
-	margin-right: auto;
-	/*max-width: 320px;*/
+	margin-right: auto;	
 }
 
 .hero-logo-garden {
@@ -82,23 +98,31 @@ h1 {
 	flex-wrap: wrap;
 }
 
-.hero-logo-garden img {
-	width: 100%;
-	max-width: 184px;
-	height: auto;
-	padding-bottom: 8px;
-}
-
 .hero-logo-garden a {
-	font-size: 40px;
-	color: rgb(var(--white));
+	font-size: 48px;
 }
 
 footer {
 	background-color: rgba(var(--black),1);
-	padding: 32px;
 }
 
-.legal-line {
+.footer-logo-garden {
+	padding: 64px var(--padding) 16px var(--padding);
+}
+
+.footer-logo-garden a {	
+	font-size: 24px;
+	padding: 0px 8px 0px 8px;
+}
+
+.footer-nav {
+	padding: var(--padding);
+}
+
+.footer-legal {
+	padding: 16px var(--padding) 64px var(--padding);
+}
+
+.footer-legal p {
 	font-size: 12px;
 }
