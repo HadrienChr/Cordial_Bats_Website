@@ -74,7 +74,7 @@ a:hover, a:active {
     	display: none; 
     }    
     .hero-background {
-		background-image: url("../images/hero-background.png");
+		background-image: url("../images/hero-background-image.webp");
     }
 }
 
@@ -103,6 +103,7 @@ a:hover, a:active {
 .hero-logo-main {
 	width: 72vw;
 	max-width: 280px;
+	height: auto;
 	margin-bottom: var(--space-between);
 }
 
