@@ -1,0 +1,26 @@
+/* Footer */
+footer {
+	background-color: rgba(var(--black),1);
+}
+
+.footer-logo-garden {
+	padding: 64px var(--padding) 16px var(--padding);
+}
+
+.footer-logo-garden a {	
+	font-size: 32px;
+	padding: 0px 8px 0px 8px;
+}
+
+.footer-nav {
+	padding: var(--padding);
+}
+
+.footer-legal {
+	padding: 16px var(--padding) 64px var(--padding);
+}
+
+.footer-legal p {
+	font-size: 12px;
+	color: rgba(var(--dark-gray), 1);
+}
