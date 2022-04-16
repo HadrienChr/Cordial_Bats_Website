@@ -27,7 +27,7 @@
 
 .hero-gradient {
 	background-image:
-	linear-gradient(to bottom left, rgba(var(--blue), 0.8), rgba(var(--pink), 0.8));
+	linear-gradient(to bottom left, rgba(var(--blue), 0.6), rgba(var(--pink), 0.6));
 }
 
 .hero-content {
