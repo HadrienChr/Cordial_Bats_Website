@@ -49,11 +49,33 @@ a:hover, a:active {
 	color: rgb(var(--pink));
 }
 
+
 /* Hero */
 .hero-background {
-	background-image: url("../images/hero-background.png");
+	/*background-image: url("../images/hero-background.png");*/
 	background-position: center;
 	background-size: cover;
+}
+
+#hero-video {
+	width: 100vw;
+  	height: 100vh;
+	position: fixed;
+	left: 0;
+	right: 0;
+	top: 0;
+	bottom: 0;
+	z-index: -1;
+	object-fit: cover;
+}
+
+@media (max-width: 768px) {
+    #hero-video { 
+    	display: none; 
+    }    
+    .hero-background {
+		background-image: url("../images/hero-background.png");
+    }
 }
 
 .hero-gradient {
@@ -102,6 +124,7 @@ a:hover, a:active {
 .hero-logo-garden a {
 	font-size: 40px;
 }
+
 
 /* Footer */
 footer {
