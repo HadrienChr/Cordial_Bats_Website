@@ -9,4 +9,6 @@
 
 .long-form-content a {
     color: rgb(var(--black));
+    text-decoration: underline;
+    text-decoration-color: rgb(var(--grey));
 }

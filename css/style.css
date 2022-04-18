@@ -53,6 +53,13 @@ h3 {
 	font-size: 20px;
 }
 
+h4 {
+	font-size: 16px;
+	margin-top: 24px;
+	color: rgb(var(--dark-gray));
+	font-style: italic;
+}
+
 p {
 	font-size: 16px;
 }
