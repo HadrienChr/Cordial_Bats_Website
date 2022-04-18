@@ -1,0 +1,14 @@
+/* Header */
+.header-background {
+    background-position: center;
+	background-size: cover;
+    background-image: linear-gradient(to bottom left, rgba(var(--blue), 0.8), rgba(var(--pink), 0.8)), url('../../images/hero-background-image.webp');
+}
+
+.header-content {
+    padding: 80px var(--padding) 80px var(--padding);
+}
+
+.header-content p {
+    margin: 0px;
+}

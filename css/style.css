@@ -1,6 +1,7 @@
 /* Components */
 @import url('components/hero.css');
 @import url('components/footer.css');
+@import url('components/header.css');
 
 /* Fonts */
 @import url('https://fonts.googleapis.com/css2?family=Adamina&family=Roboto:ital,wght@0,400;0,700;1,400&display=swap');
