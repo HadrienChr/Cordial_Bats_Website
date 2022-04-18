@@ -2,6 +2,7 @@
 @import url('components/hero.css');
 @import url('components/footer.css');
 @import url('components/header.css');
+@import url('components/long-form.css');
 
 /* Fonts */
 @import url('https://fonts.googleapis.com/css2?family=Adamina&family=Roboto:ital,wght@0,400;0,700;1,400&display=swap');
@@ -38,6 +39,18 @@ body {
 h1 {
 	font-family: 'Adamina', serif;
 	color: rgb(var(--white));
+}
+
+h2 {
+	font-size: 24px;
+	color: rgb(var(--pink));
+	margin-bottom: 16px;
+	margin-top: 56px;
+}
+
+h3 {
+	margin-top: 24px;
+	font-size: 20px;
 }
 
 p {

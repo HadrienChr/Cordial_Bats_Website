@@ -1,0 +1,12 @@
+.long-form-background {
+    background-color: rgb(var(--white));
+}
+
+.long-form-content {
+    padding: 40px var(--padding) 80px var(--padding);
+    color: rgb(var(--black));
+}
+
+.long-form-content a {
+    color: rgb(var(--black));
+}
